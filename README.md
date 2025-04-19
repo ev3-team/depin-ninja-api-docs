@@ -17,7 +17,7 @@ Welcome to **DePIN.Ninja API**!
 2. **Call** `GET /external-access/revenue` (see examples below).  
 3. **Receive** JSON with project‑level revenue snapshots you can drop into Excel, Grafana, or your own app.
 
-Every request must include your API key. Keys are rate‑limited to 60 requests per minute.  [Contact us](mailto:ninja@ev3.xyz) if you need more.
+Every request must include your API key. Keys are rate‑limited to 60 requests per minute.
 
 ---
 
