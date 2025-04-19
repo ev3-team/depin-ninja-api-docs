@@ -26,7 +26,7 @@ Every request must include your API key. Keys are rateâ€‘limited to 60 requestsâ
 
 DePINs are decentralized marketplaces for providing useful real-world services such as energy, bandwidth and compute, coordinated by smart contracts. **Onchain revenues** aims to measure the amount of **paid demand** for the core service offered by each protocol. For more a more in-depth discussion on the nature of DePIN onchain revenues, see EV3's [Q1'2025 Investor Letter](https://docsend.com/view/6pibwss8rhunkudx).
 
-DePIN.Ninja tracks three types of revenue metrics. By default, the API returns `gross` revenues, unless the `revenueType` parameter is otherwise specified:
+DePIN.Ninja tracks three types of revenue metrics. By default, the API returns `gross` revenues:
 
 | Type | Description | Beneficiary |
 |----------------|------------|--------------|
