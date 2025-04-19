@@ -4,7 +4,7 @@ Welcome to **DePIN.Ninja API**!
 <br>We turn the raw onchain and offchain data produced by Decentralized Physical Infrastructure Networks (DePINs) into **transparent, standardized metrics** enabling developers and researchers to track and benchmark DePIN projects and power their own custom dashboards and analyses.
 <br><br> DePIN.Ninja is a free, public API built by [EV3 Labs](https://ev3.xyz/):
 * For a production API key, reach out to ninja@ev3.xyz. 
-* To add a new project, see the [add project](#add-new-projects) section. 
+* To add a new project, see the [add project](#adding-new-projects) section. 
 * To report a data error, reach out to us on [telegram](https://t.me/salgala).
 
 <br>We are currently focused on providing **verified onchain revenue data** for DePINs. In the future, we will add other verified metrics such as active nodes, network traffic and utilization rates. See our data in action at [DePIN Pulse](https://www.depinpulse.app/) or on the [Chakra Marketplace](https://console.chakra.dev/marketplace).
