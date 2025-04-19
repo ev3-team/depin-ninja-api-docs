@@ -130,7 +130,7 @@ curl -H "x-api-key: $API_KEY" \
 <br>To compare the net revenues of the DePIN ecosystem across different blockchains on April 19, 2025:
  ```bash
 curl -H "x-api-key: $API_KEY" \
-     "https://api.depin.ninja/external-access/revenue/2024-04-19?revenueType=net&requestType=byChain"
+     "https://api.depin.ninja/external-access/revenue/2025-04-19?revenueType=net&requestType=byChain"
 ```
 
 ---
