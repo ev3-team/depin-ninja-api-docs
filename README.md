@@ -34,7 +34,7 @@ DePIN.Ninja tracks three types of revenue metrics. By default, the API returns `
 | **Net** revenue | The portion of paid demand used for token buybacks or burns. | Tokenholders. |
 | **Unverified** revenue | Self-reported, offchain revenues that are not evident onchain. | Shareholders. |
 
-<br>There is often ambiguity as to the source and amount of onchain revenues. Some DePINs claim to dedicate a fixed percentage of offchain company revenues to token buybacks, however this percentage cannot be verified onchain. Other DePINs use pre-mined tokens to pay for network services on behalf of B2B clients, effectively allowing the company to exit their token position indirectly rather conduct open-market purchases that benefit all tokenholders.
+<br>There is often ambiguity as to the source and amount of onchain revenues. Some DePINs claim to dedicate a fixed percentage of offchain company revenues to token buybacks, however this percentage cannot be verified onchain. Other DePINs use pre-mined tokens to pay for network services on behalf of B2B clients, effectively allowing the company to exit their token position indirectly rather than conduct open-market purchases that benefit all tokenholders.
 
 To increase transparency we've added two fields to the standard API response, `revenueSource` and `disclaimer`, which provides a link to the underlying datasource as well as notable shortcomings in data transparency or verification for the specific project. 
 
