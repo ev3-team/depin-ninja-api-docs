@@ -7,7 +7,7 @@ Welcome to **DePIN.Ninja API**!
 * To add a project, complete the new project [request form](). 
 * To report a data error, reach out to us on [telegram](https://t.me/salgala).
 
-<br>We are currently focused on providing **verified onchain revenue data** for DePINs. In the future, we will add other verified metrics such as active nodes, network traffic and utilization rates. 
+<br>We are currently focused on providing **verified onchain revenue data** for DePINs. In the future, we will add other verified metrics such as active nodes, network traffic and utilization rates. You can see our data in action at [DePIN Pulse](https://www.depinpulse.app/) or on the [Chakra Marketplace](https://console.chakra.dev/marketplace).
 
 ---
 
