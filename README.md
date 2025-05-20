@@ -88,8 +88,15 @@ The following parameters can be passed to refine the output:
 
 #### Example Requests
 
-To pull revenues for a certain date, pass in the date field in `yyyy-mm-dd` format.
-<br><br>For example, to pull revenues for the entire DePIN sector on April 19, 2025: 
+<br><br>To pull the most recently-updated data for all projects:
+
+```bash
+curl -H "x-api-key: $API_KEY" \
+     "https://api.depin.ninja/external-access/revenue/latest"
+```
+
+
+<br>To pull revenues for a certain date, pass in the date field in `yyyy-mm-dd` format. For example, to pull revenues for the entire DePIN sector on April 19, 2025: 
 ```bash
 curl -H "x-api-key: $API_KEY" \
      "https://api.depin.ninja/external-access/revenue/2025-04-19"
