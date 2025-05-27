@@ -7,7 +7,7 @@ Welcome to **DePIN.Ninja API**!
 * To add a new project, see the [add project](#adding-new-projects) section. 
 * To report a data error, reach out to us on [telegram](https://t.me/salgala).
 
-<br>We are currently focused on providing **verified onchain revenue data** for DePINs. See our data in action at [DePIN Pulse](https://www.depinpulse.app/) or on [Chakra](https://console.chakra.dev/marketplace).
+<br>We are currently focused on providing **verified onchain revenue data** for DePINs. See our data in action at [DePIN Pulse](https://www.depinpulse.app/) or on [Chakra](https://console.chakra.dev/marketplace). Onchain revenue data is refreshed every 24 hours.
 
 ---
 
