@@ -36,7 +36,7 @@ DePIN.Ninja tracks three types of revenue metrics. By default, the API returns `
 
 <br>There is often ambiguity as to the source and amount of onchain revenues. Some DePINs claim to dedicate a fixed percentage of offchain company revenues to token buybacks, however this percentage cannot be verified onchain. Other DePINs use pre-mined tokens to pay for network services on behalf of B2B clients, effectively allowing the company to exit their token position indirectly rather than conduct open-market purchases that benefit all tokenholders.
 
-To increase transparency we've added two fields to the standard API response, `revenueSource` and `disclaimer`, which provides a link to the underlying datasource as well as notable shortcomings in data transparency or verification for the specific project. 
+To increase transparency we've added two fields to the standard API response, `revenueSource` and `warning-text`, which provides a link to the underlying datasource as well as notable shortcomings in data transparency or verification for the specific project. 
 
 ---
 
@@ -64,7 +64,7 @@ curl -H "x-api-key: $YOUR_API_KEY" "https://api.depin.ninja/external-access/reve
 | `arr` | integer | Represents annualized revenues, i.e. `mrr` multiplied by 12 months. |
 | `revenueData` | array | Array with daily revenue data for the requested time period. |
 | `revenueSource` | string | URL of the underlying data source (e.g., Dune query). |
-| `disclaimer` | string | Disclaimers around revenue data transparency or verification concerns. |
+| `warning-text` | string | Warnings around revenue data transparency or verification concerns. |
 | `updatedAt` | date | Revenue data is refreshed daily at 00:05 UTC. |
 
 <br>
@@ -88,7 +88,7 @@ The following parameters can be passed to refine the output:
 
 #### Example Requests
 
-<br><br>To pull the most recently-updated data for all projects:
+<br><br>To pull the most recently-updated revenue data for all projects:
 
 ```bash
 curl -H "x-api-key: $API_KEY" \
@@ -139,6 +139,23 @@ curl -H "x-api-key: $API_KEY" \
 curl -H "x-api-key: $API_KEY" \
      "https://api.depin.ninja/external-access/revenue/2025-04-19?revenueType=net&requestType=byChain"
 ```
+
+<br>To pull warning text for a specific project:
+
+```bash
+curl -X 'GET' \
+  'apiURL/projects/:id/warning-text' \
+  -H 'accept: application/json'
+```
+
+<br>To pull warning text for all projects:
+
+```bash
+curl -X 'GET' \
+  'apiURL/projects/with-warning-text' \
+  -H 'accept: application/json'
+```
+
 
 ---
 
